@@ -12,7 +12,7 @@ def crew
 end
 
 def greet_crew (crew)
-  crew.map {|crew_member| "Hello #{crew_member}."} #have to use .map instead of .each becauce .each does not cha
+  crew.map {|crew_member| "Hello #{crew_member}."} #have to use .map instead of .each becauce .each does not change the return value .map does
 end
 
 def engage
